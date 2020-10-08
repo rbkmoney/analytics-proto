@@ -124,6 +124,7 @@ struct CurrencyGroupedAmount {
 struct ShopGroupedAmount {
     1: required base.Amount amount
     2: required string shop_id
+    3: required base.CurrencySymbolicCode currency
 }
 
 /**
